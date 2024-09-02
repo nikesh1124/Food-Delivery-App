@@ -7,7 +7,7 @@ import { createContext, useEffect, useState } from "react"
  const StoreContextProcider=(props)=>{
 
     const [cartItems,setCartItems]=useState({});
-    const url="https://food-delivery-app-lwod.onrender.com"
+    const url="https://food-delivery-app-v2dt.onrender.com"
     const [token,setToken]=useState("");
     const [food_list,setFoodList]=useState([])
 

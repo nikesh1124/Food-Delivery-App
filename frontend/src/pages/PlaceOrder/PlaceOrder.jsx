@@ -43,6 +43,7 @@ const PlaceOrder = () => {
      if(res.data.success){
        const {session_url}=res.data;
        window.location.replace(session_url);
+        // navigate("/myorders")
      }
      else{
       alert("Error fw");
